@@ -14,5 +14,9 @@ public class Main
         f = new Feeder(2400);
         System.out.println(f.simulateManyDays(10,4)+ "days");
         System.out.println(Math.random() < 0.05);
+        f = new Feeder(250);
+        System.out.println(f.simulateManyDays(10,5)+ "days");
+        f = new Feeder(0);
+        System.out.println(f.simulateManyDays(10,5)+ "days");
     }
 }
